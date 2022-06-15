@@ -8,6 +8,8 @@ public class BranchTest4 {
 		
 		System.out.println("Hello world");
 		
+		System.out.println("Hello world2");
+		
 	}
 
 }
