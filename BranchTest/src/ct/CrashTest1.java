@@ -4,15 +4,6 @@ public class CrashTest1 {
 
 	public static void main(String[] args) {
 		
-		int a = 1;
-		String y = "1";
-		int b = 2;
-		String d = "2";
-		
-		System.out.println("int x + String y = " + a + y);
-		
-		System.out.println("int c + String d = " + b + d);
-		
 		int sum1 = 0;
 		int sum2 = 0;
 		
@@ -27,6 +18,52 @@ public class CrashTest1 {
 					sum2 += x;
 					
 				}
+		
+		System.out.println("Pattern A");
+		for (int a=0; a<6; a++) {
+			for (int b=0; b<=a; b++) {
+			System.out.print("* ");
+			}
+			System.out.println();
+		}
+        System.out.println();   
+		
+		System.out.println("Pattern B");
+		for (int a=0; a<=5; a++) {
+			for (int b=5; b>=a; b--) {
+			System.out.print("* ");
+			}
+			System.out.println();
+	}
+		System.out.println(); 
+		
+		System.out.println("Pattern C");
+		for (int a=0; a<6; a++) {
+			for (int b=0; b<6; b++) {
+			if ((a+b) >=5 ) {
+			System.out.print("* ");
+			} else {
+			  System.out.print("  ");
+			}
+		}
+			System.out.println();			
+	}
+		System.out.println();   
+		
+		System.out.println("Pattern D");
+		for (int a=0; a<6; a++) {
+			for (int b=0; b<=6; b++) {
+			if (a >= b) {
+			System.out.print("  ");
+			} else {
+			  System.out.print("* ");
+			}
+		}
+			System.out.println();
+			
+		}
+		
+		
 		
 		System.out.println("합계 1 : " + sum1);
 		
