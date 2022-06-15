@@ -10,8 +10,8 @@ public class CrashTest1 {
 		String d = "2";
 		
 		System.out.println("int x + String y = " + x + y);
-		int c = 2;
-		String d = "2";
+		c = 2;
+		d = "2";
 		
 		System.out.println("int c + String d = " + c + d);
 
