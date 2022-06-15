@@ -1,5 +1,7 @@
 package ct;
 
+import java.util.Scanner;
+
 public class CrashTest1 {
 
 	public static void main(String[] args) {
@@ -31,6 +33,24 @@ public class CrashTest1 {
 		System.out.println("합계 1 : " + sum1);
 		
 		System.out.println("합계 1 : " + sum2);
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("4개의 값을 입력하세요 : ");
+		int num1 = input.nextInt();
+		int num2 = input.nextInt();
+		int num3 = input.nextInt();
+		int num4 = input.nextInt();
+		
+		
+	
+		
+		if (num1==num2 && num2==num3 && num3==num4) {
+			System.out.println("4개 정수값이 동일합니다");
+		}			
+	   else {
+		    System.out.println("4개의 정수값이 동일하지 않습니다");
+	   }
 
 	}
 
