@@ -7,3 +7,7 @@ bin/
 **/target/
 *.class
 .prefs
+
+#안돼서 다시 추가
+
+.class
