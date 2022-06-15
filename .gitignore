@@ -5,5 +5,5 @@ bin/
 .classpath
 .settings
 **/target/
-.class
+*.class
 .prefs
